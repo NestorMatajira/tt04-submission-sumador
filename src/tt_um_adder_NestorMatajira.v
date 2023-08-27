@@ -16,7 +16,11 @@ module tt_um_adder_NestorMatajira (
     wire [3:0] B;
     wire [4:0] S;
     wire [3:0] C;
-
+    
+   assign uio_in = 8'b11111111;
+    assign uio_out = 8'b11111111;
+    assign uio_oe = 8'b11111111;
+    
     assign A = ui_in[3:0];
     assign B = ui_in[7:4];
  
