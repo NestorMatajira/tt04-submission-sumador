@@ -4,6 +4,8 @@ module sumadormedio (
     output S,
     output C
 );
-    assign S = A^B;
-    assign C = A&B;
+     always @(*) begin
+    assign S <= A^B;
+    assign C <= A&B;
+    end
 endmodule
