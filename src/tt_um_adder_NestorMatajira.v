@@ -17,7 +17,7 @@ module tt_um_adder_NestorMatajira (
     wire [4:0] S;
     wire [3:0] C;
     
-   assign uio_in = 8'b11111111;
+
     assign uio_out = 8'b11111111;
     assign uio_oe = 8'b11111111;
     
@@ -55,7 +55,7 @@ module tt_um_adder_NestorMatajira (
     assign S[4] = C[3];
 
    assign  uo_out [4:0]= S; 
-    assign uo_out[7:5] = 3'd0; 
+  assign uo_out [7:5] = 3'd0; 
     
     
 endmodule
