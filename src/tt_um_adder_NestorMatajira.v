@@ -1,5 +1,4 @@
-`include "sumador_completo.v"
-`include "sumador_medio.v"
+`default_nettype none
 
 module tt_um_adder_NestorMatajira (
     input  wire [7:0] ui_in,    // Dedicated inputs - connected to the input switches
