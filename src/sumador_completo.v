@@ -6,8 +6,7 @@ module sumadorcompleto (
     output Cout 
 );
 
-    always @(*) begin
+    
     assign S <= (A^B)^Cin;
     assign Cout <=  (A&B)|(Cin&(A^B));
-    end
 endmodule
