@@ -1,8 +1,31 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/wokwi_test/badge.svg)
 
+# 4 bit adder 
+
+It receives 2 numbers of 4 bits and performs the addition internally, to finally give it to the output pin.
+
+![Imagen7](https://github.com/NestorMatajira/tt04-submission-sumador/assets/68088413/bd561ed0-31a0-4b49-819a-a653b63396b7)
+
+
+## How do we achieve this?
+
+![4-bit-adder](https://github.com/NestorMatajira/tt04-submission-sumador/assets/68088413/a2ca01ac-0403-41df-a856-7feab7a54015)
+
+A half adder and 3 full adders are used.
+
+### Half adder
+
+![Imagen4](https://github.com/NestorMatajira/tt04-submission-sumador/assets/68088413/67909fa6-ad67-4b49-8670-2618c65bb3ed)
+
+### Full adder
+
+![Imagen5](https://github.com/NestorMatajira/tt04-submission-sumador/assets/68088413/26a2e3d4-e3c4-4091-af45-d7f77048e2d8)
+
+
 # What is Tiny Tapeout?
 
 TinyTapeout is an educational project that aims to make it easier and cheaper than ever to get your digital designs manufactured on a real chip!
+
 
 Go to https://tinytapeout.com for instructions!
 
